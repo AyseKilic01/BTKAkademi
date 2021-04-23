@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.btnServer = new DevExpress.XtraEditors.SimpleButton();
             this.bntExit = new DevExpress.XtraEditors.SimpleButton();
+            this.btnGoVirtual = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // btnServer
@@ -69,11 +70,30 @@
             this.bntExit.Text = "Kapa";
             this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
             // 
+            // btnGoVirtual
+            // 
+            this.btnGoVirtual.Appearance.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnGoVirtual.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGoVirtual.Appearance.ForeColor = System.Drawing.Color.White;
+            this.btnGoVirtual.Appearance.Options.UseBackColor = true;
+            this.btnGoVirtual.Appearance.Options.UseFont = true;
+            this.btnGoVirtual.Appearance.Options.UseForeColor = true;
+            this.btnGoVirtual.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnGoVirtual.Location = new System.Drawing.Point(314, 23);
+            this.btnGoVirtual.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.btnGoVirtual.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnGoVirtual.Name = "btnGoVirtual";
+            this.btnGoVirtual.Size = new System.Drawing.Size(244, 29);
+            this.btnGoVirtual.TabIndex = 14;
+            this.btnGoVirtual.Text = "Virtual Server Yönetime Git";
+            this.btnGoVirtual.Click += new System.EventHandler(this.btnGoVirtual_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1257, 450);
+            this.Controls.Add(this.btnGoVirtual);
             this.Controls.Add(this.bntExit);
             this.Controls.Add(this.btnServer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -88,6 +108,7 @@
         #endregion
         private DevExpress.XtraEditors.SimpleButton btnServer;
         private DevExpress.XtraEditors.SimpleButton bntExit;
+        private DevExpress.XtraEditors.SimpleButton btnGoVirtual;
     }
 }
 

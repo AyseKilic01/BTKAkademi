@@ -37,5 +37,12 @@ namespace BTKAkademi
             control.Show();
             this.Hide();
         }
+
+        private void btnGoVirtual_Click(object sender, EventArgs e)
+        {
+            VirtualServerControl control = new VirtualServerControl();
+            control.Show();
+            this.Hide();
+        }
     }
 }

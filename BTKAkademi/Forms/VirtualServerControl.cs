@@ -19,6 +19,7 @@ namespace BTKAkademi.Forms
         }
         SqlClass sql = new SqlClass();
         MySqlClass my = new MySqlClass();
+        SqlServ srv = new SqlServ();
         
 
         private void btnSqlAdd_Click(object sender, EventArgs e)
@@ -51,24 +52,24 @@ namespace BTKAkademi.Forms
             my.Delete();
         }
 
-        private void btnAllAdd_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAllUpdate_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAllDelete_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void bntExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnAbstractAdd_Click(object sender, EventArgs e)
+        {
+            srv.Add();
+        }
+
+        private void btnAbstractUpdate_Click(object sender, EventArgs e)
+        {
+            srv.Update();
+        }
+
+        private void btnAbstractDelete_Click(object sender, EventArgs e)
+        {
+            srv.Delete();
         }
     }
 }

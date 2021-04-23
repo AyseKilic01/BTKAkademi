@@ -31,11 +31,11 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.btnSqlAdd = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAllDelete = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAbstractDelete = new DevExpress.XtraEditors.SimpleButton();
             this.btnSqlUpdate = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAllUpdate = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAbstractUpdate = new DevExpress.XtraEditors.SimpleButton();
             this.btnSqlDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAllAdd = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAbstractAdd = new DevExpress.XtraEditors.SimpleButton();
             this.btnMySqlAdd = new DevExpress.XtraEditors.SimpleButton();
             this.btnMySqlDelete = new DevExpress.XtraEditors.SimpleButton();
             this.btnMySqlUpdate = new DevExpress.XtraEditors.SimpleButton();
@@ -64,11 +64,11 @@
             this.panelControl1.Appearance.BackColor = System.Drawing.Color.GhostWhite;
             this.panelControl1.Appearance.Options.UseBackColor = true;
             this.panelControl1.Controls.Add(this.btnSqlAdd);
-            this.panelControl1.Controls.Add(this.btnAllDelete);
+            this.panelControl1.Controls.Add(this.btnAbstractDelete);
             this.panelControl1.Controls.Add(this.btnSqlUpdate);
-            this.panelControl1.Controls.Add(this.btnAllUpdate);
+            this.panelControl1.Controls.Add(this.btnAbstractUpdate);
             this.panelControl1.Controls.Add(this.btnSqlDelete);
-            this.panelControl1.Controls.Add(this.btnAllAdd);
+            this.panelControl1.Controls.Add(this.btnAbstractAdd);
             this.panelControl1.Controls.Add(this.btnMySqlAdd);
             this.panelControl1.Controls.Add(this.btnMySqlDelete);
             this.panelControl1.Controls.Add(this.btnMySqlUpdate);
@@ -97,23 +97,23 @@
             this.btnSqlAdd.Text = "Sql Server Ekle";
             this.btnSqlAdd.Click += new System.EventHandler(this.btnSqlAdd_Click);
             // 
-            // btnAllDelete
+            // btnAbstractDelete
             // 
-            this.btnAllDelete.Appearance.BackColor = System.Drawing.Color.Crimson;
-            this.btnAllDelete.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAllDelete.Appearance.ForeColor = System.Drawing.Color.White;
-            this.btnAllDelete.Appearance.Options.UseBackColor = true;
-            this.btnAllDelete.Appearance.Options.UseFont = true;
-            this.btnAllDelete.Appearance.Options.UseForeColor = true;
-            this.btnAllDelete.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.btnAllDelete.Location = new System.Drawing.Point(489, 150);
-            this.btnAllDelete.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
-            this.btnAllDelete.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.btnAllDelete.Name = "btnAllDelete";
-            this.btnAllDelete.Size = new System.Drawing.Size(185, 29);
-            this.btnAllDelete.TabIndex = 23;
-            this.btnAllDelete.Text = "Serverlardan Sil";
-            this.btnAllDelete.Click += new System.EventHandler(this.btnAllDelete_Click);
+            this.btnAbstractDelete.Appearance.BackColor = System.Drawing.Color.Crimson;
+            this.btnAbstractDelete.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAbstractDelete.Appearance.ForeColor = System.Drawing.Color.White;
+            this.btnAbstractDelete.Appearance.Options.UseBackColor = true;
+            this.btnAbstractDelete.Appearance.Options.UseFont = true;
+            this.btnAbstractDelete.Appearance.Options.UseForeColor = true;
+            this.btnAbstractDelete.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnAbstractDelete.Location = new System.Drawing.Point(489, 150);
+            this.btnAbstractDelete.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.btnAbstractDelete.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnAbstractDelete.Name = "btnAbstractDelete";
+            this.btnAbstractDelete.Size = new System.Drawing.Size(185, 29);
+            this.btnAbstractDelete.TabIndex = 23;
+            this.btnAbstractDelete.Text = "Abstract Sql Sil";
+            this.btnAbstractDelete.Click += new System.EventHandler(this.btnAbstractDelete_Click);
             // 
             // btnSqlUpdate
             // 
@@ -133,23 +133,23 @@
             this.btnSqlUpdate.Text = "Sql Server Güncelle";
             this.btnSqlUpdate.Click += new System.EventHandler(this.btnSqlUpdate_Click);
             // 
-            // btnAllUpdate
+            // btnAbstractUpdate
             // 
-            this.btnAllUpdate.Appearance.BackColor = System.Drawing.Color.Crimson;
-            this.btnAllUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAllUpdate.Appearance.ForeColor = System.Drawing.Color.White;
-            this.btnAllUpdate.Appearance.Options.UseBackColor = true;
-            this.btnAllUpdate.Appearance.Options.UseFont = true;
-            this.btnAllUpdate.Appearance.Options.UseForeColor = true;
-            this.btnAllUpdate.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.btnAllUpdate.Location = new System.Drawing.Point(489, 95);
-            this.btnAllUpdate.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
-            this.btnAllUpdate.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.btnAllUpdate.Name = "btnAllUpdate";
-            this.btnAllUpdate.Size = new System.Drawing.Size(185, 29);
-            this.btnAllUpdate.TabIndex = 22;
-            this.btnAllUpdate.Text = "Serverları Güncelle";
-            this.btnAllUpdate.Click += new System.EventHandler(this.btnAllUpdate_Click);
+            this.btnAbstractUpdate.Appearance.BackColor = System.Drawing.Color.Crimson;
+            this.btnAbstractUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAbstractUpdate.Appearance.ForeColor = System.Drawing.Color.White;
+            this.btnAbstractUpdate.Appearance.Options.UseBackColor = true;
+            this.btnAbstractUpdate.Appearance.Options.UseFont = true;
+            this.btnAbstractUpdate.Appearance.Options.UseForeColor = true;
+            this.btnAbstractUpdate.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnAbstractUpdate.Location = new System.Drawing.Point(489, 95);
+            this.btnAbstractUpdate.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.btnAbstractUpdate.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnAbstractUpdate.Name = "btnAbstractUpdate";
+            this.btnAbstractUpdate.Size = new System.Drawing.Size(185, 29);
+            this.btnAbstractUpdate.TabIndex = 22;
+            this.btnAbstractUpdate.Text = "Abstract Sql Güncelle";
+            this.btnAbstractUpdate.Click += new System.EventHandler(this.btnAbstractUpdate_Click);
             // 
             // btnSqlDelete
             // 
@@ -169,23 +169,23 @@
             this.btnSqlDelete.Text = "Sql Server Sil";
             this.btnSqlDelete.Click += new System.EventHandler(this.btnSqlDelete_Click);
             // 
-            // btnAllAdd
+            // btnAbstractAdd
             // 
-            this.btnAllAdd.Appearance.BackColor = System.Drawing.Color.Crimson;
-            this.btnAllAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAllAdd.Appearance.ForeColor = System.Drawing.Color.White;
-            this.btnAllAdd.Appearance.Options.UseBackColor = true;
-            this.btnAllAdd.Appearance.Options.UseFont = true;
-            this.btnAllAdd.Appearance.Options.UseForeColor = true;
-            this.btnAllAdd.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.btnAllAdd.Location = new System.Drawing.Point(489, 38);
-            this.btnAllAdd.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
-            this.btnAllAdd.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.btnAllAdd.Name = "btnAllAdd";
-            this.btnAllAdd.Size = new System.Drawing.Size(185, 29);
-            this.btnAllAdd.TabIndex = 21;
-            this.btnAllAdd.Text = "Serverlara Ekle";
-            this.btnAllAdd.Click += new System.EventHandler(this.btnAllAdd_Click);
+            this.btnAbstractAdd.Appearance.BackColor = System.Drawing.Color.Crimson;
+            this.btnAbstractAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAbstractAdd.Appearance.ForeColor = System.Drawing.Color.White;
+            this.btnAbstractAdd.Appearance.Options.UseBackColor = true;
+            this.btnAbstractAdd.Appearance.Options.UseFont = true;
+            this.btnAbstractAdd.Appearance.Options.UseForeColor = true;
+            this.btnAbstractAdd.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnAbstractAdd.Location = new System.Drawing.Point(489, 38);
+            this.btnAbstractAdd.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.btnAbstractAdd.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnAbstractAdd.Name = "btnAbstractAdd";
+            this.btnAbstractAdd.Size = new System.Drawing.Size(185, 29);
+            this.btnAbstractAdd.TabIndex = 21;
+            this.btnAbstractAdd.Text = "Abstract Sql Ekle";
+            this.btnAbstractAdd.Click += new System.EventHandler(this.btnAbstractAdd_Click);
             // 
             // btnMySqlAdd
             // 
@@ -300,11 +300,11 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.SimpleButton btnSqlAdd;
-        private DevExpress.XtraEditors.SimpleButton btnAllDelete;
+        private DevExpress.XtraEditors.SimpleButton btnAbstractDelete;
         private DevExpress.XtraEditors.SimpleButton btnSqlUpdate;
-        private DevExpress.XtraEditors.SimpleButton btnAllUpdate;
+        private DevExpress.XtraEditors.SimpleButton btnAbstractUpdate;
         private DevExpress.XtraEditors.SimpleButton btnSqlDelete;
-        private DevExpress.XtraEditors.SimpleButton btnAllAdd;
+        private DevExpress.XtraEditors.SimpleButton btnAbstractAdd;
         private DevExpress.XtraEditors.SimpleButton btnMySqlAdd;
         private DevExpress.XtraEditors.SimpleButton btnMySqlDelete;
         private DevExpress.XtraEditors.SimpleButton btnMySqlUpdate;

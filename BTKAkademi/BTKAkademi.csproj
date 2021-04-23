@@ -65,6 +65,7 @@
     <Compile Include="Forms\VirtualServerControl.Designer.cs">
       <DependentUpon>VirtualServerControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inheritances\AbstractDatabase.cs" />
     <Compile Include="Inheritances\Database.cs" />
     <Compile Include="Inheritances\MySqlClass.cs" />
     <Compile Include="Inheritances\SqlClass.cs" />

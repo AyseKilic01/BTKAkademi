@@ -53,7 +53,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ExampleCollect.cs" />
+    <Compile Include="Constructors\CustomerManager.cs" />
     <Compile Include="Erisim Bildirgecleri\Erisim.cs" />
+    <Compile Include="Forms\CityControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CityControl.Designer.cs">
+      <DependentUpon>CityControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ServerControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +90,9 @@
     <Compile Include="ServerClass\OracleServer.cs" />
     <Compile Include="ServerClass\SqlServer.cs" />
     <Compile Include="UserClass\CustomerClass.cs" />
+    <EmbeddedResource Include="Forms\CityControl.resx">
+      <DependentUpon>CityControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ServerControl.resx">
       <DependentUpon>ServerControl.cs</DependentUpon>
     </EmbeddedResource>

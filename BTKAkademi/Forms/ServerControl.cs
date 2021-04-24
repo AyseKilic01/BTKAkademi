@@ -26,6 +26,7 @@ namespace BTKAkademi.Forms
         {
             InitializeComponent();
         }
+        
         private void btnEkle_Click(object sender, EventArgs e)
         {
             person.Add(new Customer { id = 1, ad = "ayse", soyad = "kilic" });

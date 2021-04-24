@@ -44,5 +44,12 @@ namespace BTKAkademi
             control.Show();
             this.Hide();
         }
+
+        private void btnCity_Click(object sender, EventArgs e)
+        {
+            CityControl control = new CityControl();
+            control.Show();
+            this.Hide();
+        }
     }
 }

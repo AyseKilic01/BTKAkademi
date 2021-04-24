@@ -18,13 +18,25 @@ namespace BTKAkademi.Collections
             //cities = new string[3];
             //cities[2] = "İstanbul";
             //MessageBox.Show(cities[0]);
-            ArrayList cities = new ArrayList();
-            cities.Add("Ankara");
-            cities.Add("Malatya");
-            foreach(var city in cities)
+            //ArrayList in dezavantajı ise tip kontrolünün olmaması
+            //bu yüzden arraylist yerine de list kullanacağız
+
+            //ArrayList cities = new ArrayList();
+            //cities.Add("Ankara");
+            //cities.Add("Malatya");
+            //cities.Add(1);
+            //foreach(var city in cities)
+            //{
+            //    MessageBox.Show(" " + city);
+            List<string> vs = new List<string>();
+            vs.Add("Ankara");
+            vs.Add("Malatya");
+            //vs.Add(1); bunu yaptığımda arraylist in tersine burada proje kızacak
+            foreach(var i in vs)
             {
-                MessageBox.Show(" " + city);
+                MessageBox.Show(i);
             }
+
         }
     }
 }

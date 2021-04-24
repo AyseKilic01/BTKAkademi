@@ -36,6 +36,10 @@ namespace BTKAkademi.Collections
             {
                 MessageBox.Show(i);
             }
+            //dictionary bir key içinde bir value saklamak için kullanılır
+            Dictionary<string, string> keys = new Dictionary<string, string>();
+            keys.Add("you", "i");
+            MessageBox.Show(keys["you"]);
 
         }
     }

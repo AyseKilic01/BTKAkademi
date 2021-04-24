@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\ExampleCollect.cs" />
+    <Compile Include="Collections\ExceptionClass.cs" />
     <Compile Include="Constructors\CustomerManager.cs" />
     <Compile Include="Erisim Bildirgecleri\Erisim.cs" />
     <Compile Include="Forms\CityControl.cs">

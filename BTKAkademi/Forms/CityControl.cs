@@ -14,6 +14,7 @@ namespace BTKAkademi.Forms
     public partial class CityControl : Form
     {
         ExampleCollect cs = new ExampleCollect();
+        ExceptionClass vs = new ExceptionClass();
         public CityControl()
         {
             InitializeComponent();
@@ -22,6 +23,11 @@ namespace BTKAkademi.Forms
         private void btnCity_Click(object sender, EventArgs e)
         {
             cs.Collect();
+        }
+
+        private void btnExcept_Click(object sender, EventArgs e)
+        {
+            vs.Except();
         }
     }
 }
